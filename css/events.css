@@ -1,0 +1,15 @@
+html{
+	text-align:justify;
+}
+#wrapper{
+    background:rgba(255,255,255,0.5);
+    border-top:4px solid blue;
+	padding: 0px 20px 0px 20px;
+}
+#image img{
+    height: 200px;
+}
+p,li{
+    color:black;
+    line-height: 150%;
+}

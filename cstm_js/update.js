@@ -1,0 +1,11 @@
+$(document).ready(function(){
+                $("#updates").css({"margin-left":"-300px","transition":"0s","margin-top":"-200px"});
+		$("#updates_but").click(function(){
+                    $("#updates").css({"margin-left":"-8px","transition":"1s","margin-top":"150px"});
+                    $("#updates_but").css({"opacity":"0","transition":"1s"});
+		});
+		$("#updates_close").click(function(){
+                    $("#updates").css({"margin-left":"-300px","transition":"1s","margin-top":"-200px"});
+                    $("#updates_but").css({"opacity":"1","transition":"1s"});
+		});
+            });

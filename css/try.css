@@ -1,0 +1,271 @@
+html{
+    background:url('../images/bg/ftr2.png');
+	background-size: 100%;
+    background-attachment: fixed;
+    overflow-x:hidden;
+}
+#wrapper{
+    font-family:sans-serif;
+    margin:0 auto;
+    min-width:960px;
+}
+ul{
+    font-family:sans-serif;
+    display:inline-block;
+    list-style:none;
+}
+li{
+    display:inline-block;
+}
+a{
+    text-decoration:none;
+    cursor: pointer;
+}
+/* home.php */
+header{
+    height:100px;
+    margin: 40px -8px 0px -8px;
+    padding:10px 8% 0px 8%;
+}
+#juet{
+    height: 100px;
+    float:right;
+}
+#isf{
+    height: 100px;
+    float:left;
+}
+#dextra{
+    margin-top:-40px;
+    margin-right:100px;
+}
+#updates{
+    position:absolute;
+    z-index: 6;
+    width:250px;
+    margin-top:180px;
+    height:300px;
+}
+#updates_content{
+    background:url('../images/bg/bg_home3.png');
+    /*height:250px;*/
+    margin-top:20px;
+    /*overflow-y:scroll;*/
+    padding: 10px;
+}
+#updates_content a{
+    color:white;
+}
+#updates_but{
+    color:white;
+    background: #0bd;
+    float:left;
+    margin-top:220px;
+    padding:5px;
+    margin-left: -34px;
+    font-size: 130%;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    cursor: pointer;
+}
+#bullets{
+    float:right;
+    margin-top:30px;
+}
+#register{
+    width: 35px;
+    padding-top:12px;
+    padding-bottom:12px;
+    line-height:90%;
+    background: #00CCFF;
+    border-bottom:2px solid black;
+    border-top:2px solid black;
+    transition:0.3s;
+    margin-right:-8px;
+}
+#register a{
+	color:white;
+}
+.results{
+	margin-top:50px;
+}
+#schedule{
+    width: 25px;
+    padding-top:12px;
+    padding-bottom:12px;
+    line-height:90%;
+    background: #009933;
+    border-bottom:2px solid black;
+    border-top:2px solid black;
+    transition:0.3s;
+    margin-right:-8px;
+}
+#schedule:hover,#register:hover{
+    transition:0.3s;
+}
+#home_wrapper{
+    width: 800px;
+    height:150px;
+    margin:0 auto;
+    margin-top:50px;
+}
+#fest_date{
+    width:150px;
+    background:#000D1A;color:#E6E6E6;
+    text-align:center;
+    font-family: 'Sofadi One', cursive;
+    margin-top: 20px;
+}
+#fest_date>span{
+    display:block;
+    font-size: 300%;
+}
+#cir1{
+    margin-left:-390px;
+    margin-top:60px;
+}
+#cir1:hover{
+    margin-top:50px;
+}
+#cir2{
+    margin-left:-260px;
+    margin-top:25px;
+}
+#cir2:hover{
+    margin-top:15px;
+}
+#cir3{
+    margin-left:-130px;
+}
+#cir3:hover,#cir4:hover{
+    margin-top:-10px;
+}
+#cir5{
+    margin-left:130px;margin-top:25px;
+}
+#cir5:hover{
+    margin-top:15px;
+}
+#cir6{
+    margin-left:260px;margin-top:60px;
+}
+#cir6:hover{
+    margin-top:50px;
+}
+#cir1:hover{
+    margin-left:-395px;
+}
+#cir2:hover{
+    margin-left:-265px;
+}
+#cir3:hover{
+    margin-left:-135px;
+}
+#cir4:hover{
+    margin-left:-5px;
+}
+#cir5:hover{
+    margin-left:125px;
+}
+#cir6:hover{
+    margin-left:255px; 
+}
+.circle{
+    display: inline-block;
+    width:120px;
+    border:2px solid #4D94DB;
+    height:120px;
+    border-radius: 70%;
+    background-color:#0066CC;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+}
+.circle p{
+    font-size:120%;
+}
+.circle{
+    color:white;
+    font-family: 'Metal Mania', cursive;
+    font-size:110%;
+    transition:0.2s ease-in-out;}
+.circle:hover{
+    z-index:2;
+    margin-top:-5px;
+    padding:5px;
+}
+#count_wrapper{
+    width: 100%;
+    display:block;
+    text-align: center;
+}
+#count_wrapper .count_wrap{
+    margin:5px;
+    background:#000D1A;
+    color:#E6E6E6;
+    font-size:80%;
+    width: 90px;
+    /*float:left;*/
+    display:inline-block;
+    font-family: 'Sofadi One', cursive;
+    list-style:none;
+}
+#count_wrapper .no{
+    font-size:200%;
+    background:#008F6B;
+}
+#wrapper2{
+    width: 1000px;
+    margin: 0 auto;
+}
+.bar{
+    text-align: center;
+    display:inline-block;
+    margin-top:30px;
+}
+#bar1{
+    min-width: 400px;
+}
+#bar2{
+    width: 280px;
+    float:right;
+}
+#bar3{width:300px;}
+@media only screen and (min-width: 900px) and (max-width:1024px)
+{
+    header{
+        width: 100%;
+        padding:10px 0 0px 0;
+    }
+    #wrapper2{
+        width:100%;
+    }
+}
+#count_qoutes p{
+    width:100px;
+    color:white;
+    background: -webkit-gradient(linear, left top, right top, from(#1a82f7), to(#2F2727));
+    background: -moz-gradient(linear, left top, right top, from(#1a82f7), to(#2F2727));
+    background: -ms-gradient(linear, left top, right top, from(#1a82f7), to(#2F2727));
+    background: -o-gradient(linear, left top, right top, from(#1a82f7), to(#2F2727));
+}
+.fb-like-box{
+    background:#9999FF;
+}
+/*footer.php*/
+footer{
+    background: #333;
+    /*width:95%;*/    
+    /*margin-left:-8px;*/
+    /*position:absolute;*/
+    /*bottom:0;*/  
+    text-align: center;
+    z-index:1000;
+    color:#FF6666;
+}
+footer a{
+    text-decoration:none;
+    color:#EEE;
+}
